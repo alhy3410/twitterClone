@@ -46,3 +46,5 @@ var userInfo = [
     state: 'Oregon'
   }
 ];
+
+var repliedTweets = [];

@@ -1,0 +1,23 @@
+<h2>Replies</h2>
+
+{{# if isReplied}}
+<ul>
+  {{#each}}
+    <li>{{replyTweet}}: {{timeStamp}} </li>
+  {{/each}}
+</ul>
+{{else}}
+<p>
+  There are no replies yet.
+</p>
+
+{{/if}}
+
+
+<form>
+  <div class="form-group">
+    <label for="title">Reply To Tweet: </label>
+    {{input id="repliedTweet" class="form-control" value=repliedTweet}}
+  </div>
+  <button class='btn btn-primary' id='replyTweet' {{action 'replyToTweet'}}>Reply</button>
+</form>

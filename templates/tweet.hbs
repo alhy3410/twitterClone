@@ -1,1 +1,15 @@
 <h2>{{tweet}}: {{timeStamp}}</h2>
+
+{{#if isOpen}}
+
+{{outlet}}
+
+{{else}}
+
+<button class='btn btn-primary' id='openReplyForm' {{action 'openReplyForm'}}>Open Reply Form</button>
+
+<p>
+  You can click on the form to reply to the tweet
+</p>
+
+{{/if}}
