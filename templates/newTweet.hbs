@@ -1,0 +1,9 @@
+<h2>Add New Tweet</h2>
+
+<form>
+  <div class="form-group">
+    <label for="newTweet">New Tweet: </label>
+    {{input id="newTweet" name="newTweet" class="form-control" value=tweet}}
+  </div>
+  <button type="submit" {{action 'tweets'}} class="btn btn-default">Submit</button>
+</form>

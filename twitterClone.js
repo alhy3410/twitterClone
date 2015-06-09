@@ -1,1 +1,3 @@
-TwitterClone = Ember.Application.create();
+TwitterClone = Ember.Application.create({
+  LOG_TRANSITIONS: true
+});

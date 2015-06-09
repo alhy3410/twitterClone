@@ -1,31 +1,37 @@
 var tweets = [
   {
-    timeStamp: 'January 1, 2015',
+    id:'1',
+    timeStamp: '1/1/2015',
     tweet: "Happy New Year"
   },
 
   {
-    timeStamp: 'February 19, 2015',
+    id:'2',
+    timeStamp: '2/19/2015',
     tweet: "Day Drinking all day"
   },
 
   {
-    timeStamp: 'March 26, 2015',
+    id:'3',
+    timeStamp: '3/26/2015',
     tweet: "Taylor Swift fan for life"
   },
 
   {
-    timeStamp: 'April 4, 2015',
+    id:'4',
+    timeStamp: '4/4/2015',
     tweet: "Road Trip"
   },
 
   {
-    timeStamp: 'May 3, 2015',
+    id:'5',
+    timeStamp: '5/3/2015',
     tweet: "Portland Day"
   },
 
   {
-    timeStamp: 'June 30, 2015',
+    id:'6',
+    timeStamp: '6/30/2015',
     tweet: "Midway through the year"
   }
 

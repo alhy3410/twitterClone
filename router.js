@@ -1,5 +1,5 @@
 TwitterClone.Router.map(function(){
-  this.resource('home', {path: '/'});
-  this.resource('tweets');
-
+  this.resource('tweets', {path: '/'});
+  this.resource('tweet', {path: 'tweet/:tweet_id'});
+  this.resource('newTweet');
 });
