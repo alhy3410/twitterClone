@@ -1,0 +1,25 @@
+.navbar{
+  background:white;
+  color:grey;
+}
+
+body{
+  margin:50px;
+  background-image: url("../images/bkgd.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#user-info{
+  background:white;
+  border-radius: 15px;
+  padding:15px;
+  margin:5%;
+}
+
+.user-tweets{
+  background:white;
+  border-radius: 5px;
+  padding:15px;
+  margin:5%;
+}
