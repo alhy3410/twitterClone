@@ -10,7 +10,7 @@ body{
   background-size: cover;
 }
 
-#user-info{
+.user-info{
   background:white;
   border-radius: 15px;
   padding:15px;
